@@ -1,13 +1,13 @@
 let cities = [];
 let order = [];
 let num = 0;
-let popSize = 1000;
+let popSize = 10000;
 let population = [];
 let recordDistance = Infinity;
 let fitness = [];
 let bestEver = [];
 let fitness_record = 0;
-let num_cities = 10;
+let num_cities = 15;
 
 function preload() {
     file = 'https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v10/static/0,0,1/1024x512'
@@ -15,7 +15,7 @@ function preload() {
     map_img = loadImage(file);
 }
 function setup () {
-    // frameRate(10);
+    frameRate(10);
     createCanvas(1024, 512);
     translate(width/2, height/2);
     imageMode(CENTER);  
