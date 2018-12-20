@@ -2,6 +2,6 @@
 
 Implementation of a genetic algorithm to the traveling salesperson.
 
-Example: http://www.andrewarderne.com/genetic
+Example: http://www.andrewarderne.com/projects/traveling
 
 ![alt text](https://github.com/zoomie/Travel_the_world/blob/master/Example_pic.png)
